@@ -1,0 +1,15 @@
+<h1 class="title">Welcome to the birds observatory</h1>
+
+<div class="flex">
+    <div>
+        <h2>our birds list</h2>
+        <ul>
+            <li *ngFor="let b of birdsSvc.birds; let i = index" (click)="choiceItem(i)"><h3> {{ b.name }} </h3></li>
+        </ul>
+    </div>
+
+    
+    <div *ngIf="birdsSvc.currentBird">
+        <app-birds-card></app-birds-card>
+    </div>
+</div>

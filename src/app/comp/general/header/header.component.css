@@ -1,0 +1,18 @@
+  
+.bg-header { 
+    background: darkgreen;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo{width: 8%;}
+.logo > img {width: 100%; padding: 10px;}
+
+
+app-nav{
+    display: block;
+    width: 50%;
+}

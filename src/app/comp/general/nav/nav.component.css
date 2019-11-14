@@ -1,0 +1,11 @@
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
